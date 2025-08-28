@@ -2,7 +2,7 @@
 Simple snippets I use for Elementor.
 
 ## PHP Snippets
-- `Remove form fields from submit` ([PHP](https://github.com/st3phan76/elementor-snippets/blob/main)) Removes form fields/data like 'html' or 'step' from submit.
+- `Remove form fields from submit` ([PHP](https://github.com/st3phan76/elementor-snippets/blob/main/remove-form-fields-from-submit.php)) Removes form fields/data like 'html' or 'step' from submit.
 
 ## Bugs & Feedback
 No code is perfect. Should you spot a bug, please report it here via Github.
