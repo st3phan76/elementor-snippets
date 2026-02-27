@@ -1,13 +1,19 @@
 <?php
-
 /**
- * Name: remove form fields from submit
- * Author: st3phan76 (https://github.com/st3phan76)
- * License: GPL 2 or later
+ * Remove Form Fields from Submit
  *
- * Avoid sending fields/data like html, step or others by elementor form widget
- * Requires plugin Elementor PRO.
- * Use the action and filters and place them in your child-theme's functions.php file or your custom plugin file.
+ * Avoid sending fields/data like 'html', 'step' or others in Elementor Form widget submissions.
+ * Requires: Elementor PRO.
+ *
+ * Usage:
+ * Place the action and filters in your child theme's functions.php file or in a custom plugin file.
+ *
+ * @package    ElementorSnippets
+ * @author     st3phan76
+ * @copyright  2026 st3phan76
+ * @license    GPL-2.0-or-later
+ * @link       https://github.com/st3phan76
+ * @version    1.0.0
  */
  
 add_action('elementor_pro/forms/validation', function ($record, $ajax_handler) {
